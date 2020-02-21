@@ -1,0 +1,99 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /*** sidebar ***/
+.sidebar
+{
+  width: 280px; 
+  height:100vh;
+  background-color: rgb(65, 65, 90); 
+  position: fixed;
+}
+
+/*** sidebar-first ***/
+.sidebar-first
+{
+  height: 70px;
+  background-color: rgb(12, 12, 17);
+  border-bottom:1px solid white;  
+}
+
+.sidebar-first h3
+{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*** sidebar-second ***/
+.sidebar-second ul li
+{
+  list-style: none; 
+  border-bottom: 1px solid rgb(226, 211, 211);
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.sidebar-second ul li:hover
+{
+    border-right: 4px solid rgb(136, 48, 16);
+    transition: all .3s;
+   background-color: rgb(11, 23, 34);
+}
+
+.sidebar-second ul li a
+{
+  font-size: 20px;
+  color: white;
+  text-decoration: none; 
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+/*** main ***/
+.main
+{
+   width: 100%;
+   height: 100vh;
+   padding-left: 280px;
+}
+
+/*** navbar ***/
+.navbar
+{
+  height: 70px;  
+  background-color:#fafafa;
+  border-bottom: 1px solid rgb(233, 223, 223);
+}
+
+.navbar div
+{
+ float: right;
+ padding: 20px;
+}
+
+.navbar div p
+{
+ color: grey;
+ font-weight: 20px;
+}
+
+ .text-blog
+ {
+   position:relative;
+   top:10%; 
+   left:5%; 
+   font-size: 30px; 
+ }
+
+ .text-blog span
+ {
+   color: rgb(199, 16, 16); 
+ }
+
+
